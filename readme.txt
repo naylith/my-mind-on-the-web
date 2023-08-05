@@ -1,99 +1,99 @@
-====================================================
-【番　号】n-002(type-D)
-【記　述】html5、css3
-【種　類】レスポンシブ
-【画　像】あり
-【バナー】汎用バナーのみ同梱
-【変　更】16/10/05:html、css、jquery書き換え
-【変　更】17/04/24:ページ内リンクでドロワーメニューを閉じるよう変更
-【変　更】17/10/20:html、css、jquery書き換え
-【変　更】17/10/20:アコーディオンの表示を「開けたら閉じる」に変更
-【変　更】18/04/26:画像の縮小表示を追加
-【変　更】18/10/12:html、css、jquery書き換え
-【変　更】18/10/19:アコーディオンメニュー変更
-【備　考】-
-====================================================
+=========================================================== was==
+[Number] N-002 (Type-D)
+[Description] html5, CSS3
+[Type] Responsive
+[Image] Yes
+[Banner] ONLY GENERAL -Purpose Banner is Included
+[Change] 16/10/05: html, css, jQuery Rewriting
+[Changing] 17/04/24: Change to Close The Drawer Menu with the Link in the Page
+[Change] 17/10/20: html, css, jQuery Rewriting
+[Change] 17/10/20: Change the Display of the Accordion to "Close When Opened"
+[Change] 18/04/26: Added Image Redaction Display
+[Change] 18/10/12: html, css, jQuery Rewriting
+[Change] 18/10/19: Change Accordion Menu
+[Remarks]-
+=========================================================== was==
 
-DLありがとうございます。
+Thank you for DL.
 
-----------------------------------------------------
-[内容]
-----------------------------------------------------
+---------------------------------------------------
+[Contents]
+---------------------------------------------------
 ├index.html
 ├index2.html
-├link.html
-├sample.html
-├sample02.html
-├style.css
-├readme.txt
-├jsフォルダ
-└imageフォルダ
+├ Link.html
+├Sample.html
+├Sample02.html
+├ Style.css
+├Readme.txt
+├JS folder
+└ IMAGE folder
 
-・必要なページや素材があれば自由に追加・変更してください。
-・不要なページや素材は使わなくてもかまいません。 
+・ If you have the required pages or materials, please add or change freely.
+・ You do not need to use unnecessary pages and materials.
 
-----------------------------------------------------
-[jsフォルダの中身]
-----------------------------------------------------
-jquery.scroll.js…スムーススクロール
-jquery.toggle.js…メニュー表示
+---------------------------------------------------
+[JS folder contents]
+---------------------------------------------------
+jQuery.scroll.js… Smooth scrolling
+jQuery.toggle.js… Menu display
 
-----------------------------------------------------
-[画面切り替え]
-----------------------------------------------------
-ウィンドウサイズの切り替えは横幅600pxに設定しています。
-変更したい場合は「style.css」の下の方にある「スマホ、タブレット用」
-@media screen and (max-width: 600px)
-の数値と
-jsフォルダの中身「jquery.toggle.js」の
+---------------------------------------------------
+[change screen]
+---------------------------------------------------
+The window size switching is set to 600px width.
+If you want to change, "for smartphones, tablets" at the bottom of "style.css"
+@media Screen and (Max-Width: 600px)
+With the numbers of
+The contents of the JS folder "jQuery.toggle.js"
 600
-の数値を変更してください。
+Change the number of.
 
-----------------------------------------------------
-[同梱素材]
-----------------------------------------------------
-同梱素材の規約は素材のページと同一です。
-別の用途に使用してもOKですが、加工等される際には必ず規約をご確認下さい。
+---------------------------------------------------
+[Bundled material]
+---------------------------------------------------
+The terms of the bundled material are the same as the material page.
+It is OK to use it for another purpose, but please be sure to check the terms when processing.
 
-----------------------------------------------------
-[画像の縮小表示]
-----------------------------------------------------
-スマホ・タブレット(もしくは小画面)での閲覧の際、
-大きい画像は縮小して表示されるようになっています。
+---------------------------------------------------
+[Show image of image]
+---------------------------------------------------
+When viewing on a smartphone tablet (or small screen)
+Large images are displayed by reducing them.
 
-縮小表示したくない場合は
+If you don't want to display
 https://foollovers.com/te/t-usecu.html
-をご覧下さい。
+Please see.
 
-----------------------------------------------------
-[著作権表示]
-----------------------------------------------------
-著作権表示はサイズを小さくしたり、目立たない色にしたり、移動してOKです。
-※文字そのものは「designed」か「FOOL LOVERS」のどちらかでお願いします。
+---------------------------------------------------
+[Copyright display]
+---------------------------------------------------
+The copyright display is OK to reduce the size, make it inconspicuous, or move.
+* Please use either "Designed" or "Fool Lovers".
 
-トップページ(※配布ファイルの、index.htmlのような入室確認ページを使用している場合は次に表示されるページ)に
-最低1つあれば他は消してもOKですが、
-全部消した場合や、著作権表示がないページのみを使用する場合は、
-リンクページなどにFOOL LOVERSをお邪魔させて下さい。
+Top page ( * If you use an admission page such as index.html in the distribution file, the following page)
+If you have at least one, you can erase the others,
+If all are erased or only pages that do not display copyright display,
+Please let Fool Lovers bother you on the link page.
 
-----------------------------------------------------
-[よくある質問]
-----------------------------------------------------
-画像が表示されない
-　→imageフォルダに入れた状態でアップロードしてください
-　できない場合は各html、style.cssからimage/を消してください
+---------------------------------------------------
+[FAQ]
+---------------------------------------------------
+Images are not displayed
+→ Upload in the image folder
+If you cannot, delete image/from each html, style.css.
 
-メニューが動かない、スクロールが動かない
-　→jsフォルダに入れた状態でアップロードしてください
-　できない場合は各htmlからjs/を消してください
+The menu does not move, scrolling does not move
+→ Please upload it in the JS folder
+If not, delete JS/from each HTML
 
-----------------------------------------------------
-ご不明な点・ご意見・ご要望に関しましてはメールにてご連絡下さい。
-不備等ありましたらお知らせ頂けると大変助かります。
+---------------------------------------------------
+Please contact us by email for any questions, opinions, and requests.
+It would be very helpful if you could inform us if there were any deficiencies.
 
-最後までお読み頂きありがとうございました。
-----------------------------------------------------
-FOOL LOVERS　web master まぐろ。 
+Thank you for reading for me until the end.
+---------------------------------------------------
+FOOL LOVERS Web Master tuna.
 https://foollovers.com
-https://foollovers.com/faq/faqte.html (よくある質問と回答)
-----------------------------------------------------
+https://foollovers.com/faq/faqte.html (Frequently Asked questions and answers)
+---------------------------------------------------
