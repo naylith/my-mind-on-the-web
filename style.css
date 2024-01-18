@@ -24,10 +24,9 @@ font-size:62.5%
 }
   
 body{
-background:#fff;
-background: url('image/star1a_pink.gif');
-color:#000;/* text colour */
-font-size:1.2em;
+background:#574145;
+color:#FFC0CB;/* text colour */
+font-size:1.5em;
 font-family:Gaegu, Yomogi, Verdana, sans-serif;
 letter-spacing:.1em;
 line-height:1.5;
@@ -37,12 +36,12 @@ text-align:center
 /*  Title and Link color
 ------------------------------ */
 a{
-color:#000000;
+color:#FFC0CB;
 }
 
 #contents a{
 color:#e973c5;
-text-decoration:underline
+text-decoration:underline;
 }
 
 a:link, a:visited {
@@ -56,36 +55,26 @@ Container
 =================================== */
 
 #wrapper{
-background:#cbe4ff;
-border:1px solid #000000;
+background:#574145;
+color:#FFC0CB;
+border:1px solid #FFC0CB;
 margin:20px auto 60px;
 text-align:left;
 width:600px
 }
 header{
-background: url('image/80x80th_cloud1a.gif');
-background-position: top;
-background-repeat: repeat-x;
-padding:40px
+    padding-top: 40px;
 }
-#contents{
-padding:40px
-}
-
 footer{
-background: url('image/80x80bh_cloud1a.gif');
-background-position: bottom;
-background-repeat: repeat-x;
-padding:40px
-
+    padding-bottom: 40px;
 }
-/*.footer-sub{
-background-image:url(image/back01.gif);
-border-bottom:1px dashed #000;
-border-top:1px dashed #000;
-margin:auto;
-padding:40px
-}*/
+
+#contents{
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+
 
 /* ===================================
 index
@@ -94,27 +83,27 @@ index
 #indexta{
 margin:20px auto;
 text-align:left;
-width:600px /* 全体の幅・大きさはここで変更 */
+width:600px /* The overall width and size are changed here */
 }
 
 /* ===================================
-メニュー
+menu
 =================================== */
 
-#menu{
-background-image:url(image/back02.gif);
-border-bottom:1px dashed #000;
-border-top:1px dashed #000;
-line-height:1;
-margin:20px 0;
-position:relative;
-text-align:center;
-width:100%;
+#menu {
+    background-color: #FFC0CB;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0; /* Updated margin to space from top */
+    text-align: left;
+  
 }
 nav li{
-display:inline-block; /* 横並び */
+display:inline-block; /* Side by side */
 margin:0 6px;
-height:2em;line-height:2em /* メニュー高さ */
+height:2em;line-height:2em /* Menu height */
 }
 nav li a,nav li span{
 color:#000;
@@ -128,21 +117,23 @@ color: #fff;
 transition:.6s
 }
 
-/*  サブメニュー
+
+
+/*  Submenu
 ------------------------------ */
 .sub-menu{
 background:rgba(0,0,0,.8);
 position:absolute;
 left:0;
-width:100%; /* サブメニュー幅 */
+width:100%; /* Submenu width */
 z-index:20
 }
 .sub-menu li{
-display:block; /* 横並びをリセット */
+display:block; /* Reset side by side */
 margin:0;
-height:0; /* 隠す */
-visibility:hidden; /* 隠す */
-overflow:hidden; /* 隠す */
+height:0; /* hide */
+visibility:hidden; /* hide */
+overflow:hidden; 
 width:100%
 }
 .sub-menu li a{
@@ -153,17 +144,17 @@ padding:0 5px
 background:rgba(0,0,0,.5)
 }
 nav li:hover .sub-menu li{
-height:3em;line-height:3em; /* サブメニュー高さ */
+height:3em;line-height:3em; /* Submenu height*/
 visibility:visible;
 overflow:visible;
 transition: .5s
 }
-/*  メニューを開くボタン非表示
+/*  Hide button to open the menu
 ------------------------------ */
 #open{display:none}
 
 /* ===================================
-ページ上部へのリンク、著作権表示
+Link to the top of the page, copyright display
 =================================== */
 
 /*  位置はscroll.jsで設定 
@@ -299,10 +290,10 @@ dt{float:none;clear:none;width:auto}
 dd{margin-left:20px}
 
 /* ===================================
-スマホ、タブレット用メニュー
+Menu for smartphones and tablets
 =================================== */
 
-/*  スライド
+/*  slide
 ------------------------------ */
 #menu{
 background:rgba(0,0,0,.8);
@@ -355,9 +346,12 @@ overflow:visible /* リセット */
 .sub-menu li a:after{
 display: none
 }
+
 nav li:hover .sub-menu li{
 height:auto;line-height:inherit /* 高さリセット */
 }
+
+
 /*  メニューの「>」
 ------------------------------ */
 nav li span:after{
