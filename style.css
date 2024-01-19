@@ -25,6 +25,7 @@ font-size:62.5%
   
 body{
 background:#574145;
+background-image: url(image/bg-pattern-heart-cross.png);
 color:#FFC0CB;/* text colour */
 font-size:1.5em;
 font-family:Gaegu, Yomogi, Verdana, sans-serif;
