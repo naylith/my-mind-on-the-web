@@ -36,7 +36,7 @@
     }
     
     .entry-title:before{
-    content:url('image/point/cake-1.gif');
+    content:url('#');
     }
     
     h1#title{
@@ -64,7 +64,7 @@
     
     /*navlink decoration*/
     ul.module-list li:before, ul.module-list-item li:before{
-    content:url('image/point/butterfly-1.gif');
+    content:url('#');
     padding-right:5px;
     }
     
@@ -103,7 +103,7 @@
     .metadata.top-metadata{
     margin:0;
     padding-bottom:15px;
-    background-image:url('image/bg/pink-stripe.gif');
+    background-image:url('#');
     background-repeat:no-repeat;
     background-position:bottom center;
     }
