@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" />
+    <style>
+        @font-face {
+        font-family: Gaegu;
+        src: url(Gaegu-Regular.ttf);
+    }
+    
+    .layout {
+        width: 1366px;
+        height: 768px;
+    
+        display: grid;
+        grid:
+        "main" auto
+        / 35%;
+        gap: 0px;
+    
+        justify-content: center;
+        align-content: center;
+        font-family: Gaegu, sans-serif;
+    }
+       
+    .main { 
+        grid-area: main; 
+        padding: 30px;
+        background: white;
+        border: 1px dashed #95452d;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    body {
+        animation: scroll 100s linear infinite;
+        background: url(image/bg/pink-tile.png);
+        background-color:#F8C8DC;
+        color: #95452d;
+        height: auto;
+        min-width: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+    }
+    
+    @keyframes scroll {
+        100% 
+        {background-position: 0px -400%;}
+    }
+    
+    </style>
+    
+    <title>Page not found...</title>
+</head>
+
+<body>
+    <section class="layout">
+
+        <div class="main"> 
+            <a href="index.html"><img src="image/cookie-house-lamp-sorahana.gif" alt="Lost?" class="center"></a><br>
+            <center>You have lost your way...</center><br>
+            <center>The page you tried to visit was not found.</center><br>
+            <center>Press the lamppost to return home!</center>
+        </div>
+    
+    </section>
+
+</body>
+</html>
