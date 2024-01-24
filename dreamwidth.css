@@ -1,0 +1,130 @@
+*{
+    font-variant:none;
+    }
+    
+    ::selection{
+    background:#ffedf9;
+    color:#fc77d1;
+    }
+    
+    /*border style*/
+    .entry,.module,.navigation,.page-tags .tags-container,.month{
+    border:1px dotted #fc77d1;
+    border-radius: 2px;
+    margin:2px;
+    }
+    
+    .module,.entry{
+    margin:2px;
+    }
+    .module{
+    padding:0;
+    }
+    
+    /*module content links*/
+    h2.module-header,.module-navlinks,.page-tags .tags-container h2{
+    letter-spacing: 0;
+    font-size: 1.5em;
+    text-transform:lowercase;
+    }
+    
+    /*entries*/
+    .entry-poster,.metadata,h1#title, h1#title a,ul.entry-interaction-links li, ul.entry-management-links li,h2.module-header,.datetime,h3.entry-title,.journal-name{
+    font-size: 1em;
+    text-transform:lowercase;
+    font-variant:none;
+    }
+    
+    .entry-title:before{
+    content:url('image/point/cake-1.gif');
+    }
+    
+    h1#title{
+    float:right;
+    }
+    
+    h1,h2,h3{
+    font-size:1.5rem;
+    }
+    
+    .module-content .userpic img, .entry .userpic img{
+      border: 1px dotted;
+      padding: 3px;
+      border-radius: 4px;
+    }
+    
+    /*the container for everything*/
+    #canvas{
+    width:80%;
+    background:#fff9fe;
+    border: 1px solid;
+    }
+    
+    
+    
+    /*navlink decoration*/
+    ul.module-list li:before, ul.module-list-item li:before{
+    content:url('image/point/butterfly-1.gif');
+    padding-right:5px;
+    }
+    
+    .module-navlinks,.inner .module:nth-child(2){
+    text-align: left;
+    border-top: 1px solid white;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top:0;
+    }
+    .module-userprofile,.inner .module:nth-child(1){
+    border-bottom:none;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    margin-bottom:0;
+    }
+    
+    h2.module-header {
+      background: linear-gradient(180deg, rgb(255, 245, 255) 35%, rgb(255, 171, 218) 100%);
+      padding: 0 5px;
+    }
+    
+    .manage-link,.module-calendar .module-content{
+    padding:1px;
+    }
+    
+    svg path{
+      fill:brown;
+    }
+    
+    p{
+    padding:5px 0;
+    margin:0;
+    }
+    
+    .metadata.top-metadata{
+    margin:0;
+    padding-bottom:15px;
+    background-image:url('image/bg/pink-stripe.gif');
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    }
+    
+    .cuttag-action, .cuttag-action-before{
+    filter:
+    }
+    
+    
+      @media only screen and (min-width: 45em){
+    .column-left #primary > .inner:first-child {
+      padding-left: 0em;
+    }
+    }
+    
+        @media screen and (max-aspect-ratio:16/9) {
+    #canvas{
+    width:90%;
+    }
+    
+    ul{
+    margin:0;
+    }
+    }
