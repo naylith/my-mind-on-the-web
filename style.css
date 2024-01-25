@@ -10,7 +10,7 @@
     display: grid;
     grid:
     "sidebar main" auto
-    / 15% 35%;
+    / 15% 40%;
     gap: 0px;
 
     justify-content: center;
@@ -21,8 +21,8 @@
 .sidebar { 
     grid-area: sidebar;
     background:#ffedf9;
-     border: 1px dashed #95452d;
-    padding: 10px;
+    border: 1px dashed #95452d;
+    padding: 10%;
 }
     
 .main { 
@@ -39,6 +39,13 @@
     margin-right: auto;
 }
 
+.box {
+    background-color: white;
+    border: 1px dashed #95452d;
+    padding: 5px;
+    border-radius: 3px;
+}
+
 body {
     animation: scroll 100s linear infinite;
     background: url(image/bg/pink-tile.png);
@@ -52,12 +59,16 @@ body {
     align-items: center;
     perspective: 1000px;
     perspective-origin: 50% 50%;
+    cursor: url('cursors/candy-stick-whimsical.cur') 0 0, default;
 }
 
-    /* Link styles */
+
+/* Link styles */
+
 a {
     color: #fa43a8;
     text-decoration:none;
+    cursor: url('cursors/candy-stick-whimsical.cur') 0 0, pointer;
 }
 
 a:hover {
@@ -67,4 +78,18 @@ a:hover {
 @keyframes scroll {
     100% 
     {background-position: 0px -400%;}
+}
+
+/* status.cafe widget */
+
+#statuscafe {
+    padding: .5em;
+    background-color: #ffedf9;
+    border: 1px solid #fa43a8;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
 }
