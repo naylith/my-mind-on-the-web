@@ -8,37 +8,92 @@
 	<link rel="canonical" href="https://html5-templates.com/" />
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="script.js"></script>	
+	<script src="script.js" async></script>
 	<link rel="stylesheet" type="text/css" href="desktop.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" />
-	<title>Windows Template</title>
+	<title>naylith's desktop</title>
 </head>
 <body>
 	<div id="desktop">
-		<div class="window" data-title="First">
-			Window content
+
+		<!-- ID: 0 WELCOME -->
+		<div class="window" data-title="Hello">
+			<h1>Welcome to my interactive desktop !!! ₍ᐢ. .ᐢ₎ ₊˚⊹♡</h1><br>
+			Press the desktop icons to open different windows and find more ! When you're finished you can press the power icon in the taskbar to return to my homepage ⸜(｡˃ ᵕ ˂ )⸝♡
 		</div>
-		<div class="window" data-title="Second">
-			Second Window
+
+		<!-- ID: 1  ABOUT ME-->
+		<div class="window closed" data-title="About Me">
+		test<br>
 		</div>
-		<div class="window closed" data-title="Third">
-			Third window starts closed
+
+		<!-- ID: 2 MY DIARY -->
+		<div class="window closed" data-title="Diary Entries">
+			<img src="image/point/butterfly-1.gif">i write about my day sometimes on my 
+			<a href="https://naylith.dreamwidth.org/">dreamwidth diary here⋆ ˚｡⋆୨୧˚</a><br>
+			<br>
+			<a href="https://status.cafe/users/naylith"><h2>‧͙⁺˚*･༓☾ Current Status ☽༓･*˚⁺‧͙</h2></a><br>
+			<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=naylith" defer></script>
+            ‧₊˚❀༉‧₊˚.
 		</div>
-		<div class="window" data-title="Welcome">
+
+		<!-- ID: 3 TOYBOX -->
+		<div class="window closed" data-title="Toy Box">
+			<div id="iconsWindow">
+				<a class="openWindow" data-id="5" title="README"><img src="image/icons/pink-note-fool-lovers.gif" alt="folder"><br>README.txt</a>
+				<a class="openWindow" data-id="6" title="Pets"><img src="image/icons/pink-folder-fool-lovers.gif" alt="folder"><br>Virtual Pets</a>
+			</div>
+		</div>
+
+
+		<!-- ID: 4 VIRTUAL MEMORIES -->
+		<div class="window closed" data-title="4">
 			<h1>Welcome</h1>
 			<p>1</p>
 			<p><strong>2</strong></p>
 		</div>
+
+		<!-- ID: 5 READ ME-->
+		<div class="window closed" data-title="README">
+			<p>This folder contains lots of cute things from the web! Inspired by many neocities pages with their own wbe toyboxes.
+			Virtual pets folder: digital pets from the web that you can interact with. 
+			Pixels: cute pixel art collection with links!
+
+			
+		</div>
+
+		<!-- ID 6: PETS -->
+		<div class="window closed" data-title="Virtual Pets">
+			<br>
+			<div id="iconsWindow">
+				<a class="openWindow" data-id="7" title="Tamanotchi"><img src="https://tamanotchi.world/i/9815" alt="folder"><br>TAMANOTCHI.exe</a>
+				<a class="openWindow" data-id="8" title="Gify Pet"><img src="image/top-hat.gif" alt="folder" height="32" width="32"><br>GIFYPET.ppt</a>
+			</div>
+		</div>
+
+		<!-- ID 7: TAMANOTCHI-->
+		<div class="window closed" data-title="Tamanotchi">
+			<h2><center>⋆ ˚｡⋆୨୧˚ tamanotchi ˚୨୧⋆｡˚ ⋆</center></h2>
+			<p>i love and collect tamagotchi irl but i also need pets for my digital home - tamaNOTchi is an online web pet with the same mini cuteness as a tamagotchi! every click feeds my tama! </p>
+            <a href="https://tamanotchi.world/9815c"><img src="https://tamanotchi.world/i2/9815" alt="It's tamaNOTchi! Click to feed!" align="middle"></a>
+		</div>
+
+		<!-- ID: 8 GIFYPET-->
+		<div class="window closed" data-title="Gify Pet">
+			<h2><center>⋆ ˚｡⋆୨୧˚ GIFYPET ˚୨୧⋆｡˚ ⋆</center></h2>
+			<iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=tophat&dob=1709554954&gender=m&element=Air&pet=https%3A%2F%2Fgithub.com%2Fnaylith%2Fmy-mind-on-the-web%2Fblob%2Fmain%2Fimage%2Ftop-hat.gif%3Fraw%3Dtrue&map=hills.jpg&background=1995.png&tablecolor=%239566f2&textcolor=black" frameborder="0"></iframe>
+		</div>
 		
-		<div id="taskbar">		
+		<div id="taskbar">	
+			<a href="index.html" aria-label="Return to homepage"><img src="image/icons/power.png" alt="power off" width="32" height="32">
 		</div>
 		
 		<div id="icons">
-			<a href="index.html"><img src="image/icons/pink-folder-fool-lovers.gif" alt="power off"><br>Power Off</a>
-			<a class="openWindow" data-id="0"><img src="image/icons/pink-folder-fool-lovers.gif" alt="Home"><br>First</a>
-			<a class="openWindow" data-id="1"><img src="image/icons/pink-folder-fool-lovers.gif" alt="Home"><br>second</a>
-			<a class="openWindow" data-id="2"><img src="image/icons/pink-folder-fool-lovers.gif" alt="Home"><br>third</a>
-			<a class="openWindow" data-id="3"><img src="image/icons/pink-folder-fool-lovers.gif" alt="Home"><br>welcome</a>
+			<a class="openWindow" data-id="0"><img src="image/icons/pink-note-fool-lovers.gif" alt="note"><br>Hello.txt</a>
+			<a class="openWindow" data-id="1"><img src="image/icons/pink-note-fool-lovers.gif" alt="note"><br>About Me.txt</a>
+			<a class="openWindow" data-id="2"><img src="image/icons/pink-folder-fool-lovers.gif" alt="folder"><br>Diary</a>
+			<a class="openWindow" data-id="3"><img src="image/icons/pink-folder-fool-lovers.gif" alt="folder"><br>Toy Box</a>
+			<a class="openWindow" data-id="4"><img src="image/icons/pink-folder-fool-lovers.gif" alt="folder"><br>Virtual Memories</a>
 			
 		</div>
 		<!--<a href="https://html5-templates.com/" rel="nofollow" target="_blank" id="templateLink">&copy; HTML5-Templates.com</a>	-->

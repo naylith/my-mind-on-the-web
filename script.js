@@ -76,7 +76,7 @@ function openMinimized(id) {
 }
 
 $(document).ready(function(){
-	$(".window").each(function() {      		// window template
+	$(".window").each(function() {      	
 		$(this).css('z-index',1000)
 		$(this).attr('data-id', i);
 		minimizedWidth[i] = $(this).width();
