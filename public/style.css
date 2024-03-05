@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Gaegu;
+    src: url(Gaegu-Regular.ttf);
+}
+
+.layout {
+    width: 1366px;
+    height: 768px;
+
+    display: grid;
+    grid:
+    "sidebar main" auto
+    / 15% 40%;
+    gap: 0px;
+
+    justify-content: center;
+    align-content: center;
+    font-family: Gaegu, sans-serif;
+}
+
+.sidebar { 
+    grid-area: sidebar;
+    background:#ffedf9;
+    border: 1px dashed #95452d;
+    padding: 10%;
+}
+    
+.main { 
+    grid-area: main; 
+    padding: 30px;
+    background: white;
+    border: 1px solid #95452d;
+    border-left: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    background-color: white;
+    border: 1px dashed #95452d;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+body {
+    animation: scroll 100s linear infinite;
+    background: url(image/bg/pink-tile.png);
+    background-color:#F8C8DC;
+    color: #95452d;
+    height: auto;
+    min-width: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    cursor: url('cursors/candy-stick-whimsical.cur') 0 0, default;
+}
+
+
+/* Link styles */
+
+a {
+    color: #fa43a8;
+    text-decoration:none;
+    cursor: url('cursors/candy-stick-whimsical.cur') 0 0, pointer;
+}
+
+a:hover {
+    text-decoration: solid underline pink 1.2px;
+}
+
+@keyframes scroll {
+    100% 
+    {background-position: 0px -400%;}
+}
+
+/* status.cafe widget */
+
+#statuscafe {
+    padding: .5em;
+    background-color: #ffedf9;
+    border: 1px solid #fa43a8;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
