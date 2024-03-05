@@ -91,7 +91,7 @@ a {
     border-bottom: 1px solid #0c08ff;
     border-radius: 5px 5px 0 0;
     padding: 1px;
-    cursor: url('cursors/move.cur') 0 0, move;
+    /* cursor: url('cursors/move.cur') 0 0, move; */
     height: 28px;
     color: #fa43a8;
 }
